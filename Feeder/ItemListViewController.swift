@@ -29,7 +29,7 @@ class ItemListViewController: UIViewController, UITableViewDataSource, UITableVi
         super.viewDidLoad()
         
         tableView.rowHeight = UITableViewAutomaticDimension
-        tableView.estimatedRowHeight = 140
+        tableView.estimatedRowHeight = 200
     }
     
     func numberOfSections(in tableView: UITableView) -> Int {
