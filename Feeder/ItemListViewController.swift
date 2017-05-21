@@ -20,7 +20,8 @@ class ItemListViewController: UIViewController, UITableViewDataSource, UITableVi
     required init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
         
-        viewModel = ItemListViewModel(client: FeedClient())
+        let parser = FeedParser()
+        viewModel = ItemListViewModel(client: FeedClient(parser: parser))
         
         viewModel?.didLoad = viewModelDidLoad
     }

@@ -10,6 +10,7 @@
 		0306FB731ED0A98000B0E8EF /* ItemDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0306FB721ED0A98000B0E8EF /* ItemDetailViewModel.swift */; };
 		03130F4F1ED0A506009E4742 /* FeedClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03130F4E1ED0A506009E4742 /* FeedClient.swift */; };
 		0353C0DB1ED0BA1400CEE101 /* ItemListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0353C0DA1ED0BA1400CEE101 /* ItemListCell.swift */; };
+		03840A6B1ED113A1000B91BF /* FeedParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03840A6A1ED113A1000B91BF /* FeedParser.swift */; };
 		03BC28DC1ECFD64C001A2CBC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03BC28DB1ECFD64C001A2CBC /* AppDelegate.swift */; };
 		03BC28DE1ECFD64C001A2CBC /* ItemListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03BC28DD1ECFD64C001A2CBC /* ItemListViewController.swift */; };
 		03BC28E11ECFD64C001A2CBC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03BC28DF1ECFD64C001A2CBC /* Main.storyboard */; };
@@ -35,6 +36,7 @@
 		0306FB721ED0A98000B0E8EF /* ItemDetailViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemDetailViewModel.swift; sourceTree = "<group>"; };
 		03130F4E1ED0A506009E4742 /* FeedClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedClient.swift; sourceTree = "<group>"; };
 		0353C0DA1ED0BA1400CEE101 /* ItemListCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemListCell.swift; sourceTree = "<group>"; };
+		03840A6A1ED113A1000B91BF /* FeedParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedParser.swift; sourceTree = "<group>"; };
 		03BC28D81ECFD64C001A2CBC /* Feeder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Feeder.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		03BC28DB1ECFD64C001A2CBC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		03BC28DD1ECFD64C001A2CBC /* ItemListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemListViewController.swift; sourceTree = "<group>"; };
@@ -96,6 +98,7 @@
 				31DE57306BD5D3E45DBF0577 /* ItemDetailViewController.swift */,
 				0306FB721ED0A98000B0E8EF /* ItemDetailViewModel.swift */,
 				03130F4E1ED0A506009E4742 /* FeedClient.swift */,
+				03840A6A1ED113A1000B91BF /* FeedParser.swift */,
 				03BC28FD1ECFD86F001A2CBC /* Item.swift */,
 				03BC28DF1ECFD64C001A2CBC /* Main.storyboard */,
 				03BC28E21ECFD64C001A2CBC /* Assets.xcassets */,
@@ -222,6 +225,7 @@
 				0353C0DB1ED0BA1400CEE101 /* ItemListCell.swift in Sources */,
 				03BC28FE1ECFD86F001A2CBC /* Item.swift in Sources */,
 				03130F4F1ED0A506009E4742 /* FeedClient.swift in Sources */,
+				03840A6B1ED113A1000B91BF /* FeedParser.swift in Sources */,
 				03BC28DE1ECFD64C001A2CBC /* ItemListViewController.swift in Sources */,
 				03BC28FC1ECFD705001A2CBC /* ItemListViewModel.swift in Sources */,
 				03BC28DC1ECFD64C001A2CBC /* AppDelegate.swift in Sources */,
