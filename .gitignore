@@ -38,3 +38,6 @@ playground.xcworkspace
 # Packages/
 # Package.pins
 .build/
+
+# AppCode
+.idea
